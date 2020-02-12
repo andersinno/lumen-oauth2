@@ -24,10 +24,17 @@
     }
   ],
   "require": {
-    "php": "^7.4",
-    "nesbot/carbon": "2.0.0 as 1.20.0",
-    "league/oauth2-server": "6.0.0",
+    "php": "^7.2",
+    "nesbot/carbon": "^2.0",
+    "league/oauth2-server": "^8.0",
     "nordsoftware/lumen-core": "dev-VERIS-2"
+  },
+  "require-dev": {
+    "laravel/lumen-framework": "^6.3",
+    "codeception/codeception": "^3.1",
+    "codeception/specify": "^1.2",
+    "codeception/verify": "^1.2",
+    "satooshi/php-coveralls": "^2.2"
   },
   "autoload": {
     "psr-4": {
